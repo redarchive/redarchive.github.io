@@ -1,0 +1,23 @@
+.outer {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+  justify-content: center;
+  align-self: center;
+  background-color: var(--sub-bg);
+
+  > div {
+    width: 100%;
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    color: var(--text-primary);
+
+    &.inner {
+      max-width: 700px;
+    }
+  }
+}
